@@ -242,7 +242,7 @@ jobs:
           bWFTZXBhcmF0b3IvYXBwL2J1aWxkLmdyYWRsZVVUBQADtZesanV4CwABBAAAAAAE6QMAAFBLAQIeAxQAAAAIAMmJMV2yol9fRgAA
           AEkAAAAyABgAAAAAAAEAAACkgUQ4AABTZW91bFJldHVybkNhbGxfdjEuNi4yX0NvbW1hU2VwYXJhdG9yL2J1aWxkLmdyYWRsZVVU
           BQAD6h+sanV4CwABBAAAAAAE6QMAAFBLBQYAAAAAEwATAKEJAAD2OAAAAAA=
-B64EOF
+          B64EOF
           base64 -d /tmp/project.b64 > /tmp/project.zip
           mkdir -p project
           unzip -q /tmp/project.zip -d project
